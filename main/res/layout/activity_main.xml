@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context="com.example.joy.zft.MainActivity">
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/paireddevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="395dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="toto"
+        android:background="@layout/buttoni"
+       android:text="Paired Devices"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <ListView
+        android:id="@+id/devicelist"
+        android:layout_width="329dp"
+        android:layout_height="471dp"
+        android:layout_marginBottom="39dp"
+        android:layout_marginLeft="-9dp"
+        android:layout_marginTop="51dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/paireddevices"
+        app:layout_constraintTop_toTopOf="@+id/paireddevices"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+</android.support.constraint.ConstraintLayout>
