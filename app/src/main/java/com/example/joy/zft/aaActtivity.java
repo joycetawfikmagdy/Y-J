@@ -248,7 +248,7 @@ public class aaActtivity extends AppCompatActivity implements AsyncResponse {
         {
             try
             {
-                btSocket.getOutputStream().write("FR".getBytes());
+                btSocket.getOutputStream().write("I".getBytes());
             }
             catch (IOException e)
             {
@@ -263,7 +263,7 @@ public class aaActtivity extends AppCompatActivity implements AsyncResponse {
         {
             try
             {
-                btSocket.getOutputStream().write("FL".getBytes());
+                btSocket.getOutputStream().write("H".getBytes());
             }
             catch (IOException e)
             {
@@ -294,7 +294,7 @@ public class aaActtivity extends AppCompatActivity implements AsyncResponse {
         {
             try
             {
-                btSocket.getOutputStream().write("BL".getBytes());
+                btSocket.getOutputStream().write("J".getBytes());
             }
             catch (IOException e)
             {
@@ -310,7 +310,7 @@ public class aaActtivity extends AppCompatActivity implements AsyncResponse {
         {
             try
             {
-                btSocket.getOutputStream().write("BR".getBytes());
+                btSocket.getOutputStream().write("K".getBytes());
             }
             catch (IOException e)
             {

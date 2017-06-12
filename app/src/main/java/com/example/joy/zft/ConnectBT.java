@@ -140,7 +140,7 @@ import static android.R.attr.x;
                             pDialog.dismiss();
                             a.finish();
                         }
-                    }, 3000);
+                    }, 2000);
 
 
                 }
@@ -157,7 +157,7 @@ import static android.R.attr.x;
                         public void run() {
                             pDialog.dismiss();
                         }
-                    }, 3000);
+                    }, 2000);
 
 
 
